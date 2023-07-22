@@ -1,18 +1,37 @@
-let num1 = 3;
-let num2 = 5;
+let num1;
+let num2;
+let operator;
 
-function sum(num1, num2) {
-    return num1 + num2;
+//4 basic math operations function
+function add(num1, num2) {
+    let result = num1 + num2;
+    console.log(result);
 }
 
-function dif(num1, num2) {
-    return num1 - num2;
+function subtract(num1, num2) {
+    let result = num1 - num2;
+    console.log(result);
 }
 
-function prod() {
-    return num1 * num2;
+function mult(num1, num2) {
+    let result = num1 * num2;
+    console.log(result);
 }
 
-function divi() {
-    return num1 / num2;
+function divide(num1, num2) {
+    let result = num1 / num2;
+    console.log(result);
+}
+
+//Operate function
+function operate(num1, operator, num2) {
+    if (operator == "+") {
+        add(num1, num2);
+    } else if (operator == "-") {
+        subtract(num1, num2)
+    } else if (operator == "*") {
+        mult(num1,num2)
+    } else if (operator == "/") {
+        divide(num1, num2)
+    }
 }
