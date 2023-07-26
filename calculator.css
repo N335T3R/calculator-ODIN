@@ -19,6 +19,9 @@
     border-color:black;
     border-style: solid;
     border-width: thin;
+    color: black;
+    text-align: right;
+    justify-content: right;
 }
 .buttons1 {
     display: flex;
@@ -65,6 +68,24 @@
     text-align: center;
 }
 .btn {
+    background-color: brown;
+    width: 100px;
+    color: black;
+    border-color:black;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+}
+.ops {
+        background-color: brown;
+        width: 100px;
+        color: black;
+        border-color:black;
+        border-style: solid;
+        border-width: thin;
+        text-align: center;
+}
+.enter {
     background-color: brown;
     width: 100px;
     color: black;
