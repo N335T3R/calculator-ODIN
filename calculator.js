@@ -20,6 +20,11 @@ for (let i = 0; i < keys.length; i++) {
         value[i] = keys[i].textContent;
         displayValue = value.toString();
         displayValue = displayValue.replaceAll(",", "");
+        if (!num1) {
+            screen.textContent = displayValue;
+        } else {
+            screen.textContent = num1 + operator + displayValue;
+        }
     });
 }
 

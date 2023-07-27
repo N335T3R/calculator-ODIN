@@ -1,3 +1,4 @@
+/*  base grid alignment */
 #container {
     display: block;
     height: 100vh;
@@ -67,6 +68,8 @@
     border-width: thin;
     text-align: center;
 }
+
+/* button styles */
 .btn {
     background-color: brown;
     width: 100px;
@@ -97,15 +100,6 @@
 .enter {
     background-color: brown;
     width: 100px;
-    color: black;
-    border-color:black;
-    border-style: solid;
-    border-width: thin;
-    text-align: center;
-}
-.btn2 {
-    background-color: brown;
-    width: 200px;
     color: black;
     border-color:black;
     border-style: solid;
