@@ -76,7 +76,7 @@
     border-width: thin;
     text-align: center;
 }
-.ops {
+.op {
         background-color: brown;
         width: 100px;
         color: black;
@@ -84,6 +84,15 @@
         border-style: solid;
         border-width: thin;
         text-align: center;
+}
+.clear {
+    background-color: brown;
+    width: 100px;
+    color: black;
+    border-color:black;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
 }
 .enter {
     background-color: brown;
